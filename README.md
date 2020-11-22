@@ -1,4 +1,4 @@
-# terraform-gke
+# Terraform-GKE
 
 Launch and manage a GKE cluster using Terraform.
 
@@ -22,6 +22,6 @@ $ kubectl apply -f ingress.yaml
 
 *Note: It will take 5 minutes for the load balancer to provision*
 
-## Questions?
+## Deploying SignalFx
 
-Open an issue.
+To install the SFx smartagent using helm - https://docs.signalfx.com/en/latest/integrations/kubernetes/k8s-quick-install.html
