@@ -1,4 +1,4 @@
-# Terraform-GKE
+# Terraform-GKE-Kubernetes-SignalFx
 
 Launch and manage a GKE cluster using Terraform.
 
