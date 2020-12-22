@@ -5,9 +5,13 @@ Launch and manage a GKE cluster using Terraform.
 ## Clone Terraform-GKE-Kubernetes-SignalFx
 
 git clone https://github.com/rydersean/Terraform-GKE-Kubernetes-SignalFx.git
+
 mkdir secrets directory
+
 download My_project_XXX-XXXXXXX.json from GCP to secrets/
+
 echo "YOUR_ACCESS_TOKEN" > secrets/token
+
 Edit the variables.tf file
 * change the project to your project_id found in your My_Project_XXX-XXXXXX.json file.
 * Change name to something like yourname-demo-k8s-cluster
