@@ -28,6 +28,7 @@ Error: Error waiting for creating GKE cluster:
 	(1) insufficient quota to satisfy the request: Not all instances running in IGM after 14.031293531s. Expected 1, running 0, transitioning 1. Current errors: [GCE_QUOTA_EXCEEDED]: Instance 'gke-sfx-cluster-default-pool-e6dc32dc-3xh4' creation failed: Quota 'INSTANCES' exceeded.  Limit: 8.0 in region us-central1
 
 Change to another location where you do have quota such as "us-east4-c"
+
 Change the location in your variables.tf
 
 ## Launch Demo Application
