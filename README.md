@@ -46,3 +46,7 @@ $ kubectl apply -f ingress.yaml
 ## Deploying SignalFx
 
 To install the SFx smartagent using helm - https://docs.signalfx.com/en/latest/integrations/kubernetes/k8s-quick-install.html
+
+## Helpful Kubectl Commands
+
+https://gist.github.com/MuffintopSpeedos/f6c7d0327cb4486d955bc617ffec33d8#commands--stuff
